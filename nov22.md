@@ -51,3 +51,6 @@ test to see if new pet is an instance of dog class inherited from pet class:
 	    const pet1 = new Dog('Spot', 'white, brown spots', 'terrier')
 	    expect(spot instanceof Dog).toBeTruthy() 
     });
+
+## To-Do
+Refactor bear class to inherit from mammal class. Add a static function.    
