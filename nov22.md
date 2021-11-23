@@ -21,6 +21,20 @@ Static functions are called on the class itself instead of the instance of a cla
 ## Class Inheritance 
 Inheritance is when a class shares properties and methods of another class. The child class inherits from the parent class.
 
+Parent Class: (key word - class, constructor)
+
+    class  Pets {
+    constructor(name, color, species) {
+		this.name  =  name;
+		this.color  =  color;
+		this.species  =  species;
+		};
+	};
+	
+	module.exports = Pets;
+	
+Child class: (key words - extends, super, class, constructor)
+
     const  Pets  =  require("./pets");
     
     class Dog extends Pets {
@@ -28,7 +42,7 @@ Inheritance is when a class shares properties and methods of another class. The 
 		    super(name, color, 'dog');
 		    this.breed = breed;
 		    };
-	};	   
+	};	     
 
 ## Testing Inheritance with Jest 
 test to see if new pet is an instance of dog class inherited from pet class:
