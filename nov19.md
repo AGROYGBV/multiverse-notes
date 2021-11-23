@@ -43,7 +43,7 @@ In testing we use spies and stubs to see what happens with our code when we inpu
 We practiced TDD using **Jest** to test on our newly made, modular, classes and objects. "npm i jest" to install in directory of test files
 Example formatting:
 
-    `const  Airport  =  require("./airport")
+    `const  Class  =  require("./file")
     
     describe('testing x class', () => {
 	    test('class has a property', () => {
