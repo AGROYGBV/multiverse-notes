@@ -5,7 +5,7 @@ UML is a "language agnostic" way to plan, visualize, construct, and document sys
 
 **Use Case Diagram:** a form of a *behavioral diagram* to map the users experience and interaction with the program. 
 
-**Class Diagram:** a form of a *structural diagram* that shows in pseudo-code the structure of a system by mapping the system's classes, their attributes, operations (or methods), and the relationships among objects.
+**Class Diagram:** a form of a *structural diagram* that shows in pseudo-code the structure of a system by mapping the system's classes, their attributes, methods, and the relationships among objects.
 
 **Sequence Diagram:** sometimes called event diagrams or event scenarios. Is a form of an *interaction diagram* which is a subset of *behavioral diagrams.* Sequence diagrams can be considered a flow-chart for your system in regards to how objects communicate with each other to carry out functionality for the system.
 
